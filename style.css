@@ -1,0 +1,34 @@
+body{
+    height: 700px;
+    font-family: 'Calibri';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #AF4425;
+}
+
+body *{
+    margin: 15px 0;
+}
+
+input, button{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #662E1C;
+    color: #EBDCB2;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+button:hover{
+    box-shadow: 0 0 5px #ffffff;
+}
+
+p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #EBDCB2;
+}
